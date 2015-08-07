@@ -1,6 +1,6 @@
 # Aprendiendo JavaScript
 
-*Guía para aprender JavaScript para [Comunidad Mejorando.la](//cursos.mejorando.la)*
+*Guía para aprender JavaScript para [Comunidad Platzi](https://platzi.com/clases)*
 
 ![logo](img/logo_aprendiendoJS.png)
 
@@ -9,7 +9,7 @@ más importantes de nuestra época, ya que podemos emplearlo en navegadores
 web, en servidores, en procesos, e incluso en microcontroladores y
 drones.
 
-Cualquier estudiante de [Mejorando.la](//mejorando.la) puede colaborar
+Cualquier estudiante de [Platzi](https://platzi.com) puede colaborar
 en esta guía, añadiendo su conocimiento y contribuyendo a la comunidad.
 
 Siéntete libre de *forkear* este repositorio y enviar *pull-request* para que
