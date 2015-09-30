@@ -63,7 +63,7 @@ Por ejemplo, el siguiente código almacena un *string* (cadena de caracteres) en
 `miDato` y después asignarle su valor a otra variable llamada `miNuevoDato`:
 ```js
 var miDato = 'Hola Mundo';
-var miNuevoDato = miDato + ' k ase!;
+var miNuevoDato = miDato + ' k ase!';
 ```
 
 Debemos dar nombres (identificadores) descriptivos a nuestras variables, de manera que tengamos
