@@ -39,6 +39,7 @@ y no pueden contener espacios. Los nombres de variables son sensibles a mayúscu
 var _miVariable;
 var $miOtraVriable;
 var mi1234Variable;
+var mi_variable;
 
 // Identificadores invalidos
 var 123;
