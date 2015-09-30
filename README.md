@@ -21,44 +21,53 @@ sobre JavaScript
 2. [Tipos de variables](#tipos-de-variables)
 
 ## Definición de variables
-Las variables son usadas para almacenar temporalmente y acceder a datos
-desde nuestros ficheros JavaScript. Las variables pueden almacenar cualquier
-tipo de datos como números, *Strings* o datos más complejos como objetos.
+Las variables son usadas para almacenar datos. Las variables pueden almacenar cualquier
+tipo de datos como números, *Strings* (cadenas) o datos más complejos como objetos.
 
-Para definir una variable en JavaScript, usamos `var` y le damos un nombre,
+Para definir una variable en JavaScript, usamos la palabra reservada `var` y un nombre (identificador),
 por ejemplo:
 ```js
-var miDato;
+var miVariable;
 ```
 
-Podemos asignar un valor a la variable en la misma linea, por ejemplo, a
+Los nombres (identificadores) pueden comenzar con los caracteres `$`, `_`; estar formadas por letras
+y no pueden contener espacios. Los nombres de variables son sensibles a mayúsculas, por lo cual
+`miDato` y `MyDato` son variables distintas.
+
+```js
+// Identificadores validos
+var _miVariable;
+var $miOtraVriable;
+var mi1234Variable;
+
+// Identificadores invalidos
+var 123;
+var mi dato;
+var {}dato;
+```
+
+Podemos asignar un valor a la variable en la misma linea. Por ejemplo: a
 continuación asignamos el string "Hola Mundo" a la variable `miDato`:
 ```js
-var miDato = "Hola Mundo";
+var miDato = 'Hola Mundo';
 ```
 
-También podemos hacerlo en dos líneas:
+También podemos declarar la variable en una linea y la asignación en otra.
 ```js
 var miDato;
-miDato = "hola Mundo";
+miDato = 'hola Mundo';
 ```
 
-Después de declarar una variable, podemos usar su nombre para asignarle un
-valor y acceder al mismo. Por ejemplo, el siguiente código almacena un string en
-la variable `miDato` y después lo usa asignándoselo a una nueva variable `miNuevoDato`,
-a la que añadimos más texto.
+Después de declarar una variable, podemos asignarle un valor y después acceder al mismo.
+Por ejemplo, el siguiente código almacena un *string* (cadena de caracteres) en la variable
+`miDato` y después asignarle su valor a otra variable llamada `miNuevoDato`:
 ```js
-var miDato = "Hola Mundo";
-var miNuevoDato = miDato + " Ola k ase!";
+var miDato = 'Hola Mundo';
+var miNuevoDato = miDato + ' k ase!;
 ```
 
-Debemos dar nombres descriptivos a nuestras variables, de manera que más
-adelante en nuestros desarrollos, sepamos que dato estamos almacenando de
-manera más sencilla.
-
-Una variable siempre ha de comenzar por una letra, `$` o `_` y no puede
-contener espacios. Los nombres de variables son sensibles a mayúsculas, por
-ejemplo no es lo mismo `miDato` que `MyDato`, son variables diferentes.
+Debemos dar nombres (identificadores) descriptivos a nuestras variables, de manera que tengamos
+una pista tanto del uso como del valor de dicha variable.
 
 **[Volver arriba](#tabla-de-contenidos)**
 
@@ -69,7 +78,7 @@ usar con ella, como bucles o ejecuciones. La siguiente lista describe los
 tipos de variables que utilizaremos en nuestros desarrollos:
 
 ### String
-Este tipo de variable almacena caracteres como palabras o *Strings*. El
+Este tipo de variable almacena una cadena de caracteres o *Strings*. El
 dato es especificado con comillas simples o dobles. Ej:
 ```js
 var miString = "Esto es un String";
@@ -140,9 +149,6 @@ le asigna un valor `Number` entero:
 var id = "testID";
 id = 1;
 ```
-
-
-
 
 **[Volver arriba](#tabla-de-contenidos)**
 
