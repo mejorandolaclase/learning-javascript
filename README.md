@@ -48,12 +48,12 @@ var {}dato;
 ```
 
 Podemos asignar un valor a la variable en la misma linea. Por ejemplo: a
-continuación asignamos el string "Hola Mundo" a la variable `miDato`:
+continuación asignamos el string 'Hola Mundo' a la variable `miDato`:
 ```js
 var miDato = 'Hola Mundo';
 ```
 
-También podemos declarar la variable en una linea y la asignación en otra.
+También podemos declarar la variable en una linea y asignarle un valor en otra.
 ```js
 var miDato;
 miDato = 'hola Mundo';
@@ -85,6 +85,12 @@ dato es especificado con comillas simples o dobles. Ej:
 var miString = "Esto es un String";
 var otroString = 'Esto es otro texto';
 ```
+
+>**Nota**
+
+>En la comunidad de JavaScript es considerado una buena practica utilizar comillas simples
+cuando se trabaje con `Strings` (cadenas de texto) y con commillas dobles cuando se
+trabaje con archivos de tipo `JSON`.
 
 ### Number
 Este tipo de dato almacena un valor númerico. Los `Number` son usados
@@ -140,14 +146,15 @@ var nuevaVariable = null;
 
 >**Nota**
 
->JavaScript es un lenguaje sin tipado. No necesitamos especificar
-en el código que tipo de dato es cada variable. El intérprete automáticamente
-advierte el tipo de dato correcto para cada una.
-Es más, puedes asignar a una variable de un tipo el valor de otro tipo de dato.
-Por ejemplo, el siguiente código define una variable de tipo `String` y despues
-le asigna un valor `Number` entero:
+>JavaScript es un lenguaje de con tipificación dinámica. No necesitamos especificar
+en el código de que tipo de dato es cada variable. El intérprete automáticamente
+detecta el tipo de dato para cada variable.
+Es más, puedes asignar a una variable un valor de cualquier tipo y posteriormente
+asignarle otro valor de tipo diferente.
+Por ejemplo, el siguiente código declara una variable `id` y le asigna el valor `'testID'`
+de tipo `String` y despues le asigna `1`; que es de tipo `Number`:
 ```js
-var id = "testID";
+var id = 'testID';
 id = 1;
 ```
 
