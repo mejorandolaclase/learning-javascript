@@ -89,7 +89,7 @@ var otroString = 'Esto es otro texto';
 >**Nota**
 
 >En la comunidad de JavaScript es considerado una buena practica utilizar comillas simples
-cuando se trabaje con `Strings` (cadenas de texto) y con commillas dobles cuando se
+cuando se trabaje con `Strings` (cadenas de texto) y con comillas dobles cuando se
 trabaje con archivos de tipo `JSON`.
 
 ### Number
